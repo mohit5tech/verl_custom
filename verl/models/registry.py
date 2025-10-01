@@ -36,6 +36,10 @@ _MODELS = {
         "apertus",
         ("ParallelApertusForCausalLMRmPadPP", "ParallelApertusForValueRmPadPP", "ParallelApertusForCausalLMRmPad"),
     ),
+    "OmegaForCausalLM": (
+    "omega",
+    ("ParallelOmegaForCausalLMRmPadPP", "ParallelOmegaForValueRmPadPP", "ParallelOmegaForCausalLMRmPad"),
+),
 }
 
 
